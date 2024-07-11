@@ -44,3 +44,22 @@ const myFunction = function(){
 }
 
 
+// *************** memeory ************
+// Stack(Premitive) & Heap(Non-premitive)
+
+// stack => copy
+// heap => refrence of oreiginal value
+
+
+let myName = "Dishant"
+
+let anotherName = myName
+anotherName = "Subhesh"
+
+console.log(myName);
+console.log(anotherName);
+
+let user =  {
+    email : "goole@.com",
+    upi :"yes@ybl"
+}
